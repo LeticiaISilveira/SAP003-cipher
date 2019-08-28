@@ -1,5 +1,5 @@
-function message() {
-  event.preventDefault();
+function message(event) {
+  event.preventDefault()
     
   /* Pegar os dados do HTML */
   const str = document.getElementById("txt").value;
@@ -20,4 +20,6 @@ function message() {
   }
 }
 
-message();  
+setTimeout(function() {
+document.getElementById("btn-enviar").addEventListener("click", message);
+}, 2000);

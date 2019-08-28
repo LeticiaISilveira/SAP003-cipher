@@ -11,34 +11,35 @@
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 
-  <header>
-    <div id="root">
-      <h1>Cifra de César</h1>
-    </div>
-  </header>
-  <main>
-    <form>
-      <label>Digite sua mensagem: </label></br>
-      <textarea required id="txt"></textarea></br>
-      <label for="unittype">Selecione uma opção:</label>
-      <select id="unittype" name="unittype">
-        <option value="1">cifrar</option>
-        <option value="2">decifrar</option>
-      </select></br></br>
-      <label>Chave de deslocamento:</label>
-      <input type="number" placeholder="Digite um número" id="offset" required /></br></br>
-      <button id="btn-enviar" onclick="message()">Enviar</button></br></br></br>
-      <label>Resultado: </label></br>
-      <textarea id="result"></textarea></br>
-    </form>
-  </main>
-  <figure>
-    <!--AQUI VAI A IMAGEM DO JULINHO-->
-  </figure>
-  <footer>
-    
-  </footer>
 
+  <!-- bloco com os botoes 
+  <div class="botoes"
+     botoes para selecionar usar a cifra ou visualizar repertório 
+    <button id="botao-cifra" onclick="botaocifra()">Cifrar/Decifrar</button>
+    <button id="botao-repertorio" onclick="principal(perguntasAda,corretasAda)">Meu repertório</button>
+  </div>-->
+
+  <div class="container">
+
+    <article>
+      <p> </p>
+      <form>
+        <label id="msgLabel">Digite sua mensagem: </label></br>
+        <textarea required id="txt"></textarea></br>
+        <label for="unittype">Selecione uma opção:</label>
+        <select id="unittype" name="unittype">
+          <option value="1">Cifrar</option>
+          <option value="2">Decifrar</option>
+        </select></br></br>
+        <label>Chave de deslocamento:</label>
+        <input type="number" placeholder="nº" id="offset" required /></br></br>
+        <button id="btn-enviar"><!--onclick="message(event)"-->Enviar</button></br></br></br>
+        <label id="resultLabel">Resultado: </label></br>
+        <textarea id="result"></textarea></br>
+      </form>
+    </article>
+
+  </div>
 
 </body>
 
