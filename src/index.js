@@ -1,3 +1,5 @@
+document.getElementById("btn-enviar").addEventListener("click", message)
+
 function message(event) {
   event.preventDefault()
     
@@ -19,7 +21,48 @@ function message(event) {
     document.getElementById("result").value = rDecode;
   }
 }
-
+/*
 setTimeout(function() {
-document.getElementById("btn-enviar").addEventListener("click", message);
-}, 2000);
+}, 2000);*/
+
+
+/*icones limpar*/
+let clear = document.querySelector('#clear');
+let textarea = document.querySelector('#txt');
+
+clear.addEventListener('click', function () {
+  textarea.value = '';
+}, false);
+
+
+let icon2 = document.querySelector('#clear2');
+let result = document.querySelector('#result');
+
+icon2.addEventListener('click', function () {
+  result.value = '';
+}, false);
+
+/*icones limpar*/
+
+const copyTextareaBtn = document.querySelector('#copy');
+
+copyTextareaBtn.addEventListener('click', function(event) {
+  const copyTextarea = document.querySelector('#result');
+  copyTextarea.select();
+
+  copyTextarea = document.execCommand('copy');
+})
+
+/*icone enviar repo*/
+const subRepository = document.querySelector('#goRepository');
+
+subRepository.addEventListener('click', function(event) {
+  const copyTextarea2 = document.querySelector('#result');
+
+
+  /*
+  copyTextarea2.select();
+
+  copyTextarea2 = document.execCommand('copy');*/
+})
+

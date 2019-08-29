@@ -3,14 +3,27 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="icon" type="imagem/png" href="icons8-cadeado-2-24.png" />
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Dosis|Handlee|Heebo|Lacquer|Lalezar|Lexend+Giga|Libre+Franklin|Lora|Marck+Script|Monoton|Muli|Neucha|Ruda|Sawarabi+Mincho|Tangerine|Ultra&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
 
+  <header>
+    <h1 class="tooltip"><img src="icons8-cadeado-2-24.png" alt=""/>Caesar Cipher<img src="icons8-cadeado-2-24.png"
+        alt=""/>
+      <span class="tooltiptext">Segundo o Wikipedia, a Cifra de César, também conhecida como cifra de troca, código de
+        César ou troca de César, é uma das mais simples e conhecidas técnicas de criptografia. É um tipo de cifra de
+        substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um
+        número fixo de vezes. Por exemplo, com uma troca de três posições, A seria substituído por D, B se tornaria E, e
+        assim por diante. O nome do método é em homenagem a Júlio César, que o usou para se comunicar com os seus
+        generais.</span>
+    </h1>
+  </header>
 
   <!-- bloco com os botoes 
   <div class="botoes"
@@ -19,27 +32,37 @@
     <button id="botao-repertorio" onclick="principal(perguntasAda,corretasAda)">Meu repertório</button>
   </div>-->
 
-  <div class="container">
 
-    <article>
-      <p> </p>
-      <form>
-        <label id="msgLabel">Digite sua mensagem: </label></br>
-        <textarea required id="txt"></textarea></br>
-        <label for="unittype">Selecione uma opção:</label>
-        <select id="unittype" name="unittype">
-          <option value="1">Cifrar</option>
-          <option value="2">Decifrar</option>
-        </select></br></br>
-        <label>Chave de deslocamento:</label>
-        <input type="number" placeholder="nº" id="offset" required /></br></br>
-        <button id="btn-enviar"><!--onclick="message(event)"-->Enviar</button></br></br></br>
-        <label id="resultLabel">Resultado: </label></br>
-        <textarea id="result"></textarea></br>
-      </form>
-    </article>
 
-  </div>
+  <article>
+    <p> </p>
+    <form>
+      <textarea required id="txt" placeholder="Digite sua mensagem:"></textarea></br>
+      <img id="clear" src="icons8-vassoura-24 (1).png" alt=""/><br /><br /> <br />
+
+      <label for="unittype">Selecione uma opção:</label>
+      <select id="unittype" name="unittype">
+        <option value="1">Cifrar</option>
+        <option value="2">Decifrar</option>
+      </select></br></br>
+      <label>Chave de deslocamento:</label>
+      <input type="number" placeholder="nº" id="offset" required /></br></br>
+      <button id="btn-enviar">Enviar</button></br></br></br>
+      <label id="resultLabel">Resultado: </label></br>
+      <textarea id="result" readonly="readonly"></textarea> </textarea></br>
+
+      <div class="icons">
+          <img id="copy" src="icons8-copiar-24.png" alt=""/>
+          <img id="clear2" src="icons8-vassoura-24 (1).png" alt=""/>
+          <img id="goRepository" src="icons8-enviar-mensagem-24.png" alt=""/>
+      </div>
+    </form>
+
+
+  </article>
+
+  <script src="index.js"></script>
+  <script src="cipher.js"></script>
 
 </body>
 

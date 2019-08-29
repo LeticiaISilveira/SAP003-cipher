@@ -1,9 +1,9 @@
 window.cipher = {
-  encode: encodeMsg,
-  decode: decodeMsg,
+  encode: encode,
+  decode: decode,
 };
 
-function encodeMsg(offset, str) {
+function encode(offset, str) {
   let resultE = [];
 
   for (let i = 0; i < str.length; i++) {
@@ -27,7 +27,7 @@ function encodeMsg(offset, str) {
   return resultE.join("")
 }
 
-function decodeMsg(offset, str) {
+function decode(offset, str) {
   let resultD = [];
 
   for (let i = 0; i < str.length; i++) {

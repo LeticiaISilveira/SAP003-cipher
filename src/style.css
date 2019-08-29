@@ -1,14 +1,21 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: black;
+ 
     
+}
+
+::selection {
+    background: pink;
+    color: black;
 }
 
 #txt{
     box-align: center;
     display:block;
     width:400px;
-    height: 100px;
+    height: 150px;
 	padding: 5px;
 	font-size:20px;
 	color:#861c2a;
@@ -16,6 +23,42 @@
     background: black;
     margin: 0 auto;
     resize: none;
+    outline:none;
+    cursor: text;
+    
+}
+
+#clear{
+    cursor: pointer;
+}
+#clear2{
+    cursor: pointer;
+}
+
+#copy{
+    cursor: pointer;
+}
+
+#result{
+    box-align: center;
+    display:block;
+    width:400px;
+    height: 100px;
+    padding: 5px;
+	font-size:20px;
+	color:#861c2a;
+	border: 3px solid #861c2a;
+    background: black;
+    margin: 0 auto;
+    resize: none;
+    outline:none;
+    cursor: default;
+       
+}
+
+#resultLabel{
+    font-style: italic;
+    font-size: 1.2em;
 }
 
 #unittype{
@@ -26,12 +69,14 @@
     color: black;
     background-color: #861c2a;
     border: 3px solid #861c2a;
+    outline:none;
 
 }
 #unittype:hover{
     color: #861c2a;
     background-color: black;
     border: 3px solid #861c2a;
+    outline:none;
 
 }
 
@@ -42,26 +87,17 @@
     height: 50px;
     font-size: 20px;
     border: 3px solid #861c2a;
+    outline:none;
 }
 
 #btn-enviar:hover{
     color: #861c2a;
     background-color: black; 
-    border: solid #861c2a;   
+    border: solid #861c2a;
+      
 }
 
-#result{
-    box-align: center;
-    display:block;
-    width:400px;
-    height: 100px;
-	padding: 5px;
-	font-size:20px;
-	color:#861c2a;
-	border: 3px solid #861c2a;
-    background: black;
-    margin: 0 auto;
-}
+
 
 #offset{
     text-align: center;
@@ -72,6 +108,7 @@
     color: black;
     background-color: #861c2a;
     border: 3px solid #861c2a;
+    outline:none;
 
 }
 
@@ -81,6 +118,7 @@ header{
     background: black;
     padding: auto;
     margin: 0px;
+    text-align: center;
     
 }
 
@@ -94,7 +132,13 @@ h1,p{
 }
 
 h1{
-    font-size: 2.5em;
+    font-size: 4em;
+    color: #a32f3e;
+    font-family: Ruda;
+    cursor: pointer;
+    text-align: center;
+    padding: 25px;
+    
 }
 
 article{
@@ -116,48 +160,42 @@ form{
     color: #861c2a;
     background-color: black;
 }
-
-
-
-
-
-/*
-footer{
-    width: auto;
-    height: auto;
-    background: #861c2a;
-    padding-top: 20px 0;
-    clear: both;
+.icons{
+    color: #861c2a;
+        
 }
 
-footer p{
+.tooltip {
+    /*position: relative;*/
+    
+    display: inline-block;
+    font-size: 4em;
+    color: #a32f3e;
+    font-family: Ruda;
+    cursor: pointer;
     text-align: center;
-    font-size: 24px;
-    color: #fff;
-    
-}
-
-article{
-    width: 580px;
-    height: 300px;
-    background: black;
-    float: left;
-}
-aside{
-    width: 200px;
-    height: 300px;
-    background: #ccc;
-    float: left;
-    margin-left: 20px;
-}
-
-.container{
-    width: auto;
-    margin: auto;
-    right: auto;
-    bottom: 1000px;
-    background: blue;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 520px;
+    background-color: pink;
+    opacity: 0.8;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    text-justify: inherit;
+    border-radius: 6px;
+    padding: 20px 20px;
     
     
-}
-*/
+  
+     /*Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+ 
