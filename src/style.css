@@ -7,19 +7,25 @@
 }
 
 ::selection {
-    background: pink;
+    background: rgb(34, 151, 19);
     color: black;
 }
+
+
+input::placeholder {
+    color:black;
+ }
+
 
 #txt{
     box-align: center;
     display:block;
-    width:400px;
+    width:300px;
     height: 150px;
 	padding: 5px;
 	font-size:20px;
-	color:#861c2a;
-	border: 3px solid #861c2a;
+	color:rgb(34, 151, 19);
+	border: 3px solid rgb(34, 151, 19);
     background: black;
     margin: 0 auto;
     resize: none;
@@ -39,75 +45,57 @@
     cursor: pointer;
 }
 
-#result{
-    box-align: center;
-    display:block;
-    width:400px;
-    height: 100px;
-    padding: 5px;
-	font-size:20px;
-	color:#861c2a;
-	border: 3px solid #861c2a;
-    background: black;
-    margin: 0 auto;
-    resize: none;
-    outline:none;
-    cursor: default;
-       
-}
-
-#resultLabel{
-    font-style: italic;
-    font-size: 1.2em;
-}
 
 #unittype{
-    text-align: center;
-    padding: 10px;
+    width: 100px;
+    text-align: left;
+    padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
-    background-color: #861c2a;
-    border: 3px solid #861c2a;
+    background-color: rgb(34, 151, 19);
+    border: 3px solid rgb(34, 151, 19);
     outline:none;
 
 }
 #unittype:hover{
-    color: #861c2a;
+    color: rgb(34, 151, 19);
     background-color: black;
-    border: 3px solid #861c2a;
+    border: 3px solid rgb(34, 151, 19);
     outline:none;
 
 }
 
 #btn-enviar{
-    background: #861c2a;
+    background: rgb(34, 151, 19);
     color: black;
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 75px;
     font-size: 20px;
-    border: 3px solid #861c2a;
+    border: 3px solid rgb(34, 151, 19);
     outline:none;
 }
 
 #btn-enviar:hover{
-    color: #861c2a;
+    color: rgb(34, 151, 19);
     background-color: black; 
-    border: solid #861c2a;
+    border: solid rgb(34, 151, 19);
       
 }
 
-
+.offset{
+    font-size: 18px;
+}
 
 #offset{
     text-align: center;
-    color:#861c2a;  
-    width: 60px;
+    color:rgb(34, 151, 19);  
+    width: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
-    background-color: #861c2a;
-    border: 3px solid #861c2a;
+    background-color: rgb(34, 151, 19);
+    border: 3px solid rgb(34, 151, 19);
     outline:none;
 
 }
@@ -124,7 +112,7 @@ header{
 
 h1,p{
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
@@ -132,13 +120,25 @@ h1,p{
 }
 
 h1{
-    font-size: 4em;
-    color: #a32f3e;
+    font-size: 1em;
+    color: rgb(34, 151, 19);
     font-family: Ruda;
     cursor: pointer;
     text-align: center;
     padding: 25px;
     
+}
+
+h2{
+    font-size: 1.5em;
+    color: black;
+    font-family: Dosis;
+    cursor: pointer;
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(34, 151, 19);
+    opacity: 0.7;
+
 }
 
 article{
@@ -157,11 +157,11 @@ form{
     padding: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5em;
-    color: #861c2a;
+    color: rgb(34, 151, 19);
     background-color: black;
 }
 .icons{
-    color: #861c2a;
+    color: rgb(34, 151, 19);
         
 }
 
@@ -170,7 +170,7 @@ form{
     
     display: inline-block;
     font-size: 4em;
-    color: #a32f3e;
+    color: rgb(34, 151, 19);
     font-family: Ruda;
     cursor: pointer;
     text-align: center;
@@ -179,8 +179,8 @@ form{
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 520px;
-    background-color: pink;
-    opacity: 0.8;
+    background-color: rgb(197, 236, 145);
+    opacity: 0.9;
     color:black;
     font-size: 20px;
     text-align: center;
