@@ -1,14 +1,14 @@
-document.getElementById("btn-enviar").addEventListener("click", message)
+document.getElementById("btn-enviar").addEventListener("click", message);
 
 function message(event) {
-  event.preventDefault()
+  event.preventDefault();
     
   /* Pegar os dados do HTML */
   const str = document.getElementById("txt").value;
   const offset = parseInt(document.getElementById("offset").value || 0);
 
   /* <select> <option> */
-  const option = document.getElementById("unittype");
+  const option = document.getElementById("option");
   const item = option.options[option.selectedIndex].value;
     
   /* Mostrar resultado de acordo com a opção selecionada */
@@ -17,33 +17,22 @@ function message(event) {
     document.getElementById("txt").value = rEncode;
 
   } else {
-    const rDecode = window.cipher.decode(offset,str);
+    const rDecode = window.cipher.decode(offset, str);
     document.getElementById("txt").value = rDecode;
   }
 }
 
-/*icones limpar*/
-let clear = document.querySelector('#clear');
-let textarea = document.querySelector('#txt');
+/*limpar e copiar*/
+const textArea = document.querySelector("#txt");
+const clear = document.querySelector("#clear");
+const copy = document.querySelector("#copy");
 
-clear.addEventListener('click', function () {
-  textarea.value = '';
+clear.addEventListener("click", function () {
+  textArea.value = "";
 }, false);
 
-const copyTextareaBtn = document.querySelector('#copy');
-
-copyTextareaBtn.addEventListener('click', function(event) {
-  const copyTextarea = document.querySelector('#txt');
-  copyTextarea.select();
-
-  copyTextarea = document.execCommand('copy');
+copy.addEventListener("click", function() {
+  textArea.select();
+  textArea = document.execCommand("copy");
 })
 
-/*icone enviar repo
-const subRepository = document.querySelector('#goRepository');
-
-subRepository.addEventListener('click', function(event) {
-  const copyTextarea2 = document.querySelector('#result');
-
-})
-*/

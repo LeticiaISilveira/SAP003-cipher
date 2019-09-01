@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
   <header>
     <h1 class="tooltip"><img src="icons8-cadeado-2-24.png" alt="" /> &nbspCaesar Cipher
       <span class="tooltiptext">Segundo o Wikipedia, a Cifra de César, também conhecida como cifra de troca, código de
@@ -24,60 +23,26 @@
     </h1>
   </header>
 
-  <!-- bloco com os botoes 
-  <div class="botoes"
-     botoes para selecionar usar a cifra ou visualizar repertório 
-    <button id="botao-cifra" onclick="botaocifra()">Cifrar/Decifrar</button>
-    <button id="botao-repertorio" onclick="principal(perguntasAda,corretasAda)">Meu repertório</button>
-  </div>-->
-
-
-
   <article>
-  </br></br></br></br> </br></br></br> <h2> Codifique seu texto e salve em um repositório!</h2>
+    </br></br></br></br> </br></br></br>
+    <h2> Codifique seu texto!</h2>
     <form>
       <textarea required id="txt" placeholder="Digite sua mensagem:"></textarea></br>
 
-      <label class="offset">Chave:</label>
+      <label class="offsetLabel">Chave:</label>
       <input type="number" placeholder="nº" id="offset" required />&nbsp&nbsp&nbsp&nbsp
 
-      <select id="unittype" name="unittype">
+      <select id="option" name="option">
         <option value="1">Cifrar</option>
         <option value="2">Decifrar</option>
       </select>&nbsp&nbsp&nbsp&nbsp
+
       <img id="copy" src="icons8-copiar-24.png" alt="" />
       <img id="clear" src="icons8-vassoura-24 (1).png" alt="" />
-      <img id="goRepository" src="icons8-enviar-mensagem-24.png" alt="" />
+     
+      </br></br></br><button id="btn-enviar">Enviar</button></br></br></br>
 
-
-      <!--<img id="clear" src="icons8-vassoura-24 (1).png" alt=""/><br /><br /> <br />-->
-
-
-   
-
-    </br></br></br><button id="btn-enviar">Enviar</button></br></br></br>
-
-
-
-      <!--       <label for="unittype">Selecione uma opção:</label>
-      <select id="unittype" name="unittype">
-        <option value="1">Cifrar</option>
-        <option value="2">Decifrar</option>
-      </select></br></br>
-      <label>Chave de deslocamento:</label>
-      <input type="number" placeholder="nº" id="offset" required /></br></br>
-      <button id="btn-enviar">Enviar</button></br></br></br>
-     <label id="resultLabel">Resultado: </label></br>
-      <textarea id="result" readonly="readonly"></textarea> </textarea></br> 
-
-      <div class="icons">
-          <img id="copy" src="icons8-copiar-24.png" alt=""/>
-          <img id="clear2" src="icons8-vassoura-24 (1).png" alt=""/>
-          <img id="goRepository" src="icons8-enviar-mensagem-24.png" alt=""/>
-      </div>-->
     </form>
-
-
   </article>
 
   <script src="index.js"></script>

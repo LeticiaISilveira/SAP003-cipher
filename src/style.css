@@ -2,172 +2,24 @@
     margin: 0;
     padding: 0;
     background-color: black;
- 
-    
+   
 }
 
-::selection {
-    background: rgb(34, 151, 19);
-    color: black;
-}
-
-
-input::placeholder {
-    color:black;
- }
-
-
-#txt{
-    box-align: center;
-    display:block;
-    width:300px;
-    height: 150px;
-	padding: 5px;
-	font-size:20px;
-	color:rgb(34, 151, 19);
-	border: 3px solid rgb(34, 151, 19);
-    background: black;
-    margin: 0 auto;
-    resize: none;
-    outline:none;
-    cursor: text;
-    
-}
-
-#clear{
-    cursor: pointer;
-}
-#clear2{
-    cursor: pointer;
-}
-
-#copy{
-    cursor: pointer;
-}
-
-
-#unittype{
-    width: 100px;
-    text-align: left;
-    padding: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15px;
-    color: black;
-    background-color: rgb(34, 151, 19);
-    border: 3px solid rgb(34, 151, 19);
-    outline:none;
-
-}
-#unittype:hover{
+h1{
     color: rgb(34, 151, 19);
-    background-color: black;
-    border: 3px solid rgb(34, 151, 19);
-    outline:none;
-
-}
-
-#btn-enviar{
-    background: rgb(34, 151, 19);
-    color: black;
-    width: 150px;
-    height: 75px;
-    font-size: 20px;
-    border: 3px solid rgb(34, 151, 19);
-    outline:none;
-}
-
-#btn-enviar:hover{
-    color: rgb(34, 151, 19);
-    background-color: black; 
-    border: solid rgb(34, 151, 19);
-      
-}
-
-.offset{
-    font-size: 18px;
-}
-
-#offset{
-    text-align: center;
-    color:rgb(34, 151, 19);  
-    width: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15px;
-    color: black;
-    background-color: rgb(34, 151, 19);
-    border: 3px solid rgb(34, 151, 19);
-    outline:none;
-
+    font-weight: normal;
+    padding: 25px;
 }
 
 header{
     width: auto;
-    height: 5px;
-    background: black;
-    padding: auto;
-    margin: 0px;
+    height: 10px;
     text-align: center;
-    
-}
-
-h1,p{
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: normal;
-    padding: 50px;
-}
-
-h1{
-    font-size: 1em;
-    color: rgb(34, 151, 19);
-    font-family: Ruda;
-    cursor: pointer;
-    text-align: center;
-    padding: 25px;
-    
-}
-
-h2{
-    font-size: 1.5em;
-    color: black;
-    font-family: Dosis;
-    cursor: pointer;
-    text-align: center;
-    padding: 25px;
-    background-color: rgb(34, 151, 19);
-    opacity: 0.7;
-
-}
-
-article{
-    width: auto;
-    height: 800px;
-    background: black;
-    bottom: auto;
-    
-}
-
-
-form{
-    /*display: none;*/
-    text-align: center;
-    color:black;
-    padding: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5em;
-    color: rgb(34, 151, 19);
-    background-color: black;
-}
-.icons{
-    color: rgb(34, 151, 19);
-        
+    padding: 10px;
 }
 
 .tooltip {
-    /*position: relative;*/
-    
     display: inline-block;
     font-size: 4em;
     color: rgb(34, 151, 19);
@@ -187,15 +39,102 @@ form{
     text-justify: inherit;
     border-radius: 6px;
     padding: 20px 20px;
-    
-    
-  
-     /*Position the tooltip */
     position: absolute;
     z-index: 1;
-  }
+}
   
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+
+  
+h2{
+    font-size: 1.8em;
+    color: black;
+    font-family: Dosis;
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(34, 151, 19);
+}
+
+form{
+    /*display: none;*/
+    text-align: center;
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(34, 151, 19);
+}
+
+#txt{
+    box-align: center;
+    display:block;
+    width:300px;
+    height: 150px;
+	padding: 5px;
+	font-size:20px;
+	color:rgb(34, 151, 19);
+	border: 3px solid rgb(34, 151, 19);
+    background: black;
+    margin: 0 auto;
+    resize: none;/*????*/
+    outline:none;
+    cursor: text;
+}
+
+.offsetLabel{
+    font-size: 18px;
+}
+
+#offset{
+    text-align: center;
+    color:rgb(34, 151, 19);  
+    width: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(34, 151, 19);
+    border: 3px solid rgb(34, 151, 19);
+    outline:none;
+}
+
+::selection,input::placeholder {
+    background: rgb(34, 151, 19);
+    color: black;
+}
+
+#option{
+    width: 100px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgb(34, 151, 19);
+    border: 3px solid rgb(34, 151, 19);
+    /*outline:none;??*/ 
+}
+#option:hover{
+    color: rgb(34, 151, 19);
+    background-color: black;
+    border: 3px solid rgb(34, 151, 19);
+    outline:none;
+}
+
+#clear,#copy{
+    cursor: pointer;
+}
+
+#btn-enviar{
+    background: rgb(34, 151, 19);
+    color: black;
+    width: 150px;
+    height: 75px;
+    font-size: 20px;
+    border: 3px solid rgb(34, 151, 19);
+    outline:none;
+}
+
+#btn-enviar:hover{
+    color: rgb(34, 151, 19);
+    background-color: black; 
+    border: solid rgb(34, 151, 19);
+}
+
  
