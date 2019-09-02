@@ -18,7 +18,7 @@ function message(event) {
 }
  
 clear.addEventListener("click", function () {
-  const textArea = document.getElementById("txt")
+  const textArea = document.getElementById("txt");
   textArea.value = "";
 }, false);
 
