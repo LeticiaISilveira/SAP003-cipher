@@ -23,7 +23,7 @@ function message(event) {
 }
 
 /*limpar e copiar*/
-const textArea = document.querySelector("#txt");
+let textArea = document.querySelector("#txt");
 const clear = document.querySelector("#clear");
 const copy = document.querySelector("#copy");
 
@@ -34,5 +34,5 @@ clear.addEventListener("click", function () {
 copy.addEventListener("click", function() {
   textArea.select();
   textArea = document.execCommand("copy");
-})
+});
 

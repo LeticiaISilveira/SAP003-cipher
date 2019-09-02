@@ -31,7 +31,6 @@ function encode(offset, str) {
 function decode(offset, str) {
   let resultD = [];
   const isPositive = offset >= 0;
-
   for (let i = 0; i < str.length; i++) {
     if (str[i].charCodeAt(0) > 64 && str[i].charCodeAt(0) < 91) {
       const offsetTurn = isPositive ? 65 : -65;
@@ -40,11 +39,9 @@ function decode(offset, str) {
     if (str[i].charCodeAt(0) > 96 && str[i].charCodeAt(0) < 123) {
       resultD.push(String.fromCharCode((str[i].charCodeAt(0) - offset - 19) % 26 + 97));
     }
-
     if (str[i].charCodeAt(0) > 47 && str[i].charCodeAt(0) < 58) {
       resultD.push(String.fromCharCode(str[i].charCodeAt(0)));
     }
-
     if (str[i].charCodeAt(0) === 32) {
       resultD.push(String.fromCharCode(str[i].charCodeAt(0)));
     }
