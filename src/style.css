@@ -28,7 +28,7 @@ header{
     text-align: center;
   }
   
-.tooltip .tooltiptext {
+.tooltip .tooltip-text {
     visibility: hidden;
     width: 520px;
     background-color: rgb(197, 236, 145);
@@ -43,7 +43,7 @@ header{
     z-index: 1;
 }
   
-.tooltip:hover .tooltiptext {
+.tooltip:hover .tooltip-text {
     visibility: visible;
   }
 
@@ -81,7 +81,7 @@ form{
     cursor: text;
 }
 
-.offsetLabel{
+.offset-label{
     font-size: 18px;
 }
 

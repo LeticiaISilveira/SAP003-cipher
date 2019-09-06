@@ -4,9 +4,9 @@
 
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Usuabilidade](#3-usuabilidade)
-* [4. Considerações técnicas](#7-considerações-técnicas)
-* [5. Checklist](#10-checklist)
+* [3. Experiência do usuário](#3-experiência-do-usuário)
+* [4. Considerações técnicas](#4-considerações-técnicas)
+* [5. Checklist](#5-checklist)
 
 ***
 
@@ -40,18 +40,19 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 ## 2. Resumo do Projeto
 Muitas pessoas têm dificuldade de memorizar suas senhas e preferem deixá-las salvas em seus periféricos, o que nem sempre é conveniente, principalmente se for para acesso a sites e aplicativos que gerenciam informações pessoais ou que possuem acesso a sua conta bancária. 
 
-O projeto surge como alternativa, para que essas pessoas criem um repositório de senhas codificadas ou, se ja utilizam algum repositório de senha, possam adicionar mais segurança, utilizando uma chave que somente ela e pessoas autorizadas possam ter acesso, e assim, consigam decifrá-las.  
-O projeto Caesar Cipher Codificação de Senhas, lê o texto inserido pelo usuário, lê a sua chave de deslocamento(offset), permite escolher entre cifrar e decifrar através de uma caixa de opções e, após o clique do botão "Enviar", apresenta o resultado na tela, apagando o texto original. A cifragem/decifragem, ocorre com letras de A à Z, considerando minúsculas e maiúsculas. 
+O projeto surge como alternativa, para que essas pessoas criem um repositório de senhas codificadas ou, se já possuem um repositório de senha, possam adicionar mais segurança, utilizando uma chave que somente ela e pessoas autorizadas possam ter acesso, e assim, consigam decifrá-las.  
+
+O Caesar Cipher Codificação de Senhas, lê o texto inserido pelo usuário, lê a sua chave de deslocamento(offset), permite escolher entre cifrar e decifrar através de uma caixa de opções e, após o clique do botão "Enviar", apresenta o resultado na tela, apagando o texto original. A cifragem/decifragem, ocorre com letras de A à Z, considerando minúsculas e maiúsculas. 
   
   Acesse a interface através do (link https://leticiaisilveira.github.io/Caesar-Cipher/src/index.html)
 
-## 3. Usuabilidade
+## 3. Experiência do Usuário
 
 O design do projeto é funcional, simples e intuitivo. O usuário pode observar o objetivo de forma clara, através do banner destacado. Ao passar com o mouse em cima da logo e título, consegue ler um breve resumo sobre a cifra de César. 
 Foram utilizados ícones intuitivos para a opção de copiar e limpar.
 
 ## Usuário
-Qualquer pessoa que dejesa acrescentar mais segurança às suas senhas por meio da codificação. 
+Qualquer pessoa que queira acrescentar mais segurança às suas senhas por meio da codificação. 
 
 
 ### Interface do usuário (UI)
