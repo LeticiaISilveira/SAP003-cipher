@@ -44,9 +44,11 @@ O projeto surge como alternativa, para que essas pessoas criem um repositório d
 
 O Caesar Cipher Codificação de Senhas, lê o texto inserido pelo usuário, lê a sua chave de deslocamento(offset), permite escolher entre cifrar e decifrar através de uma caixa de opções e, após o clique do botão "Enviar", apresenta o resultado na tela, apagando o texto original. A cifragem/decifragem, ocorre com letras de A à Z, considerando minúsculas e maiúsculas. 
   
-  Acesse a interface através do (link https://leticiaisilveira.github.io/Caesar-Cipher/src/index.html)
+  
 
 ## 3. Experiência do Usuário
+
+Acesse a interface através do (link https://leticiaisilveira.github.io/Caesar-Cipher/src/index.html)
 
 O design do projeto é funcional, simples e intuitivo. O usuário pode observar o objetivo de forma clara, através do banner destacado. Ao passar com o mouse em cima da logo e título, consegue ler um breve resumo sobre a cifra de César. 
 Foram utilizados ícones intuitivos para a opção de copiar e limpar.
