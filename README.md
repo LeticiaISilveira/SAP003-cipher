@@ -51,6 +51,7 @@ O Caesar Cipher Codificação de Senhas, lê o texto inserido pelo usuário, lê
 O design do projeto é funcional, simples e intuitivo. O usuário pode observar o objetivo de forma clara, através do banner destacado. Ao passar com o mouse em cima da logo e título, consegue ler um breve resumo sobre a cifra de César. 
 Foram utilizados ícones intuitivos para a opção de copiar e limpar.
 
+![caeser-cipher](https://github.com/LeticiaISilveira/SAP003-cipher/blob/master/tela-Cypher.png)
 ## Usuário
 Qualquer pessoa que queira acrescentar mais segurança às suas senhas por meio da codificação. 
 
