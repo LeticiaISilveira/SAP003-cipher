@@ -7,6 +7,7 @@
 * [3. Experiência do usuário](#3-experiência-do-usuário)
 * [4. Considerações técnicas](#4-considerações-técnicas)
 * [5. Checklist](#5-checklist)
+* [6. Considerações técnicas](#6-considerações-finais)
 
 ***
 
@@ -154,3 +155,9 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
 * [✔] Cifrar/decifrar minúsculas.
 * [✔] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
 * [✔] Permitir usar `offset` negativo.
+
+
+## 4. Considerações finais
+
+* O projeto foi feito individualmente.
+* Após a entrega do projeto, serão implementadas novas funcionalidades e outras melhorias, conforme aprendo coisas novas :p .
