@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <link rel="icon" type="imagem/png" href="icons8-cadeado-2-24.png" />
-  <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
-  <link
-    href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Dosis|Handlee|Heebo|Lacquer|Lalezar|Lexend+Giga|Libre+Franklin|Lora|Marck+Script|Monoton|Muli|Neucha|Ruda|Sawarabi+Mincho|Tangerine|Ultra&display=swap"
-    rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="icon" type="imagem/png" href="./images/icons8-cadeado-2-24.png" />
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Dosis|Handlee|Heebo|Lacquer|Lalezar|Lexend+Giga|Libre+Franklin|Lora|Marck+Script|Monoton|Muli|Neucha|Ruda|Sawarabi+Mincho|Tangerine|Ultra&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Courier+Prime|Girassol|Montserrat|Open+Sans|Open+Sans+Condensed:300&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1 class="tooltip"><img src="icons8-cadeado-2-24.png" alt="" /> &nbspCaesar Cipher
-      <span class="tooltip-text">Segundo o Wikipedia, a Cifra de César, também conhecida como cifra de troca, código de
-        César ou troca de César, é uma das mais simples e conhecidas técnicas de criptografia. É um tipo de cifra de
-        substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um
-        número fixo de vezes. Por exemplo, com uma troca de três posições, A seria substituído por D, B se tornaria E, e
-        assim por diante. O nome do método é em homenagem a Júlio César, que o usou para se comunicar com os seus
-        generais.</span>
-    </h1>
-  </header>
-  <article>
-    </br></br></br></br> </br></br></br>
-    <h2> Codifique suas senhas e arquive em seu repositório!</h2>
-    <form>
-      <textarea required id="txt" placeholder="Digite sua mensagem:"></textarea></br>
-      <label class="offset-label">Chave:</label>
-      <input type="number" placeholder="nº" id="offset" required />&nbsp&nbsp&nbsp&nbsp
-      <select id="option" name="option">
-        <option value="1">Cifrar</option>
-        <option value="2">Decifrar</option>
-      </select>&nbsp&nbsp&nbsp&nbsp
-      <img id="copy" src="icons8-copiar-24.png" alt="" />
-      <img id="clear" src="icons8-vassoura-24 (1).png" alt="" />
-      </br></br></br><button id="btn-enviar">Enviar</button></br></br></br>
-    </form>
-  </article>
-  <script src="index.js"></script>
-  <script src="cipher.js"></script>
+    <header>
+        <h1 class="title"><img src="./images/icons8-cadeado-2-24.png" alt="" /> Caesar Cipher
+        </h1>
+    </header>
+    <article>
+        <h2> Para maior segurança das suas senhas, arquive-as codificadas. </h2>
+        <form>
+            <p class="tooltip"> ?
+                <span class="tooltip-text">É simples!   (: </br>
+                    1º  Digite o texto a ser cifrado/decifrado. </br>
+                    2º  Digite a chave de deslocamento. </br>
+                    3º  Selecione a opção cifrar/decifrar.</br>
+                    4º  Clique em "Enviar" para visualizar o resultado.</br>
+                </span>
+                </p>
+            <textarea required id="txt" placeholder="Digite sua mensagem:"></textarea>
+            <label class="offset-label">Chave:</label>
+            <input type="number" placeholder="nº" id="offset" required />
+            <select id="option" name="option">
+                <option value="1">Cifrar</option>
+                <option value="2">Decifrar</option>
+            </select>
+            <img id="copy" src="./images/icons8-copiar-24.png" alt="" />
+            <img id="clear" src="./images/icons8-limpar.png" alt="" />
+            </br><button id="btn-enviar">Enviar</button>
+        </form>
+    </article>
+    <script src="index.js"></script>
+    <script src="cipher.js"></script>
 </body>
 </html>

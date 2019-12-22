@@ -1,42 +1,52 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
-   
+    background-color: #455A64;  
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1{
-    color: rgb(34, 151, 19);
+    padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
-    padding: 25px;
 }
 
 header{
     width: auto;
-    height: 10px;
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center; 
+}
+
+.title{
+    display: inline-block;
     text-align: center;
-    padding: 10px;
+    font-size: 4em;
+    color: white;
+    font-family: Ruda;
 }
 
 .tooltip {
     display: inline-block;
-    font-size: 4em;
-    color: rgb(34, 151, 19);
-    font-family: Ruda;
+    font-size: 2em;
+    color: white;
     cursor: pointer;
-    text-align: center;
   }
   
 .tooltip .tooltip-text {
     visibility: hidden;
     width: 520px;
-    background-color: rgb(197, 236, 145);
+    background-color: rgb(219, 230, 226);
     opacity: 0.9;
-    color:black;
+    color:rgb(57, 62, 65);
     font-size: 20px;
-    text-align: center;
-    text-justify: inherit;
+    text-align: left;
     border-radius: 6px;
     padding: 20px 20px;
     position: absolute;
@@ -47,22 +57,20 @@ header{
     visibility: visible;
   }
 
-  
 h2{
+    padding-top: 50px;
     font-size: 1.8em;
-    color: black;
-    font-family: Dosis;
+    font-family: 'Courier Prime', monospace;
     text-align: center;
-    padding: 25px;
-    background-color: rgb(34, 151, 19);
+    color: aquamarine;
 }
 
+
 form{
-    /*display: none;*/
     text-align: center;
     padding: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(34, 151, 19);
+    color: aquamarine;
 }
 
 #txt{
@@ -72,9 +80,9 @@ form{
     height: 100px;
 	padding: 5px;
 	font-size:20px;
-	color:rgb(34, 151, 19);
-	border: 3px solid rgb(34, 151, 19);
-    background: black;
+	color:whitesmoke;
+	border: 3px solid aquamarine;
+    background:rgb(57, 62, 65);
     margin: 0 auto;
     resize: none;
     outline:none;
@@ -87,54 +95,62 @@ form{
 
 #offset{
     text-align: center;
-    color:rgb(34, 151, 19);  
+    color:aquamarine;  
     width: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
-    color: black;
-    background-color: rgb(34, 151, 19);
-    border: 3px solid rgb(34, 151, 19);
+    color: rgb(57, 62, 65);
+    background-color: aquamarine;
+    border: 3px solid aquamarine;
     outline:none;
 }
 
 ::selection,input::placeholder {
-    background: rgb(34, 151, 19);
-    color: black;
+    background: aquamarine;
+    color: rgb(57, 62, 65);
 }
 
 #option{
     width: 100px;
     padding: 5px;
     font-size: 15px;
-    background-color: rgb(34, 151, 19);
-    border: 3px solid rgb(34, 151, 19);
+    background-color: aquamarine;
+    border: 3px solid aquamarine;
     outline:none;
 }
+
 #option:hover{
-    color: rgb(34, 151, 19);
-    background-color: black;
-    border: 3px solid rgb(34, 151, 19);
+    color: aquamarine;
+    background-color: rgb(57, 62, 65);
+    border: 3px solid aquamarine;
     outline:none;
 }
 
 #clear,#copy{
+    padding-top: 5px;
     cursor: pointer;
+    width: 35px;
 }
 
 #btn-enviar{
-    background: rgb(34, 151, 19);
-    color: black;
     width: 150px;
     height: 75px;
+    margin-top: 50px;
     font-size: 20px;
-    border: 3px solid rgb(34, 151, 19);
+    background: aquamarine;
+    color: rgb(57, 62, 65);
+    border: 3px solid aquamarine;
     outline:none;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+
 }
 
 #btn-enviar:hover{
-    color: rgb(34, 151, 19);
-    background-color: black; 
-    border: solid rgb(34, 151, 19);
+    color: aquamarine;
+    background-color: rgb(57, 62, 65); 
+    border: solid aquamarine;
 }
 
  

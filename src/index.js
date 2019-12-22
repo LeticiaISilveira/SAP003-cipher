@@ -23,7 +23,7 @@ clear.addEventListener("click", function () {
 }, false);
 
 copy.addEventListener("click", function () {
-  const textArea = document.getElementById("txt")
+  const textArea = document.getElementById("txt");
   textArea.select();
   textArea = document.execCommand("copy");
 });

@@ -51,12 +51,12 @@ O Caesar Cipher Codificação de Senhas, lê o texto inserido pelo usuário, lê
 
 Acesse a interface através do (link https://leticiaisilveira.github.io/Caesar-Cipher/src/index.html)
 
-O design do projeto é funcional, simples e intuitivo. O usuário pode observar o objetivo de forma clara, através do banner destacado. Ao passar com o mouse em cima da logo e título, consegue ler um breve resumo sobre a cifra de César. 
-Foram utilizados ícones intuitivos para a opção de copiar e limpar.
+O design do projeto é funcional, simples e intuitivo. O usuário pode observar o objetivo de forma clara, mas caso tenha alguma dúvida a opção help-me "?", detalha os quatros passos para utilização da aplicação. 
 
-![tela-Cipher](https://github.com/LeticiaISilveira/SAP003-cipher/blob/master/tela-Cipher.png)
+
+![screen-Cipher](https://github.com/LeticiaISilveira/SAP003-cipher/blob/master/tela-Cipher.png)
 ## Usuário
-Qualquer pessoa que queira acrescentar mais segurança às suas senhas por meio da codificação. 
+Qualquer pessoa que queira acrescentar mais segurança às suas senhas por meio da codificação/cifra. 
 
 
 ### Interface do usuário (UI)
@@ -126,8 +126,6 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
 
 ##  5. Checklist
 
-Essa seção é para te ajudar a ter um controle do que você precisa completar.
-
 ### Parte Obrigatória
 
 * [✔] `README.md` adicionar informação sobre o processo e decisões do desenho.
@@ -160,4 +158,4 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
 ## 4. Considerações finais
 
 * O projeto foi feito individualmente.
-* Após a entrega do projeto, serão implementadas novas funcionalidades e outras melhorias, conforme aprendo coisas novas :p .
+* Após a entrega do projeto, serão implementadas novas funcionalidades e outras melhorias (ainda em vanilla), conforme aprendo coisas novas :p .
