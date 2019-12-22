@@ -51,7 +51,7 @@ O Caesar Cipher Codificação de Senhas, lê o texto inserido pelo usuário, lê
 
 Acesse a interface através do (link https://leticiaisilveira.github.io/Caesar-Cipher/src/index.html)
 
-O design do projeto é funcional, simples e intuitivo. O usuário pode observar o objetivo de forma clara, mas caso tenha alguma dúvida a opção help-me "?", detalha os quatros passos para utilização da aplicação.
+O design do projeto é funcional, simples e intuitivo. O usuário pode observar o objetivo de forma clara, mas caso tenha alguma dúvida, a opção help-me "?" detalha os quatros passos para utilização da aplicação.
 
 
 ![screen-Cipher](https://github.com/LeticiaISilveira/SAP003-cipher/blob/master/src/images/screen-Cipher.png)
