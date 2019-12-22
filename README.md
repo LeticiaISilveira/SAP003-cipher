@@ -40,8 +40,8 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
 ## 2. Resumo do Projeto
 Muitas pessoas têm dificuldade de memorizar suas senhas e preferem deixá-las salvas em seus periféricos, o que nem sempre é conveniente, principalmente se for para acesso a sites e aplicativos que gerenciam informações pessoais ou que possuem acesso a sua conta bancária. 
-
-O projeto surge como alternativa, para que essas pessoas criem um repositório de senhas codificadas ou, se já possuem um repositório de senha, possam adicionar mais segurança, utilizando uma chave que somente ela e pessoas autorizadas possam ter acesso, e assim, consigam decifrá-las.  
+ 
+O projeto surge como alternativa para que essas pessoas possam criar um repositório de senhas codificadas, ou, se já possuem um repositório de senhas, possam adicionar mais segurança com a utilização de uma chave que somente ela e pessoas autorizadas possam ter acesso.
 
 O Caesar Cipher Codificação de Senhas, lê o texto inserido pelo usuário, lê a sua chave de deslocamento(offset), permite escolher entre cifrar e decifrar através de uma caixa de opções e, após o clique do botão "Enviar", apresenta o resultado na tela, apagando o texto original. A cifragem/decifragem, ocorre com letras de A à Z, considerando minúsculas e maiúsculas. 
   
