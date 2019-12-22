@@ -54,7 +54,7 @@ Acesse a interface através do (link https://leticiaisilveira.github.io/Caesar-C
 O design do projeto é funcional, simples e intuitivo. O usuário pode observar o objetivo de forma clara, mas caso tenha alguma dúvida a opção help-me "?", detalha os quatros passos para utilização da aplicação. 
 
 
-![screen-Cipher](https://github.com/LeticiaISilveira/SAP003-cipher/blob/master/screen-Cipher.png)
+![screen-Cipher](https://github.com/LeticiaISilveira/SAP003-cipher/blob/master/src/images/screen-Cipher.png)
 ## Usuário
 Qualquer pessoa que queira acrescentar mais segurança às suas senhas por meio da codificação/cifra. 
 
