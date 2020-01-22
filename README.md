@@ -155,7 +155,7 @@ Nas regras/guias de estilo usaremos das recomandações padrão tanto para o
 * [✔] Permitir usar `offset` negativo.
 
 
-## 4. Considerações finais
+## 6. Considerações finais
 
 * O projeto foi feito individualmente.
 * Após a entrega do projeto, serão implementadas novas funcionalidades e outras melhorias (ainda em vanilla), conforme aprendo coisas novas :p .
