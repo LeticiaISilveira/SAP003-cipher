@@ -9,7 +9,6 @@
 * [5. Checklist](#5-checklist)
 * [6. Considerações técnicas](#6-considerações-finais)
 
-***
 
 ## 1. Prefácio
 
